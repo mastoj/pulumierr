@@ -28,4 +28,5 @@ stages:
             inputs:
               targetType: inline
               script: |
+                pulumi stack select dev
                 pulumi up -y
